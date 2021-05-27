@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #EE4D2D;
+    --white-color: #ffffff;
+    --black-color: #000;
+    --text-color: #333333;
+    --border-color: #dbdbdb;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1 rem luc nay tuong duong voi 10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
